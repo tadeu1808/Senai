@@ -1,0 +1,42 @@
+#string
+nome = "Tadeu"
+
+#inteiro
+idade = 27
+
+#booleano
+adulto = False
+
+#float
+saldo = 3.14
+
+negativos = -2.5
+
+#listas 
+
+listas = [True, "texto", 10, - 50]
+lista = [1,2,3]
+
+# vetor
+#adicionar, editar, remover
+
+#tuplas
+# estrutura ordenada
+#tupla é imutavl
+
+cores = ("vermelho", "azul", "preto")
+
+# dict
+pessoa = { 
+    "nome": "Arthur",
+    "idade": 27
+    "cidade": "Sao Paulo"
+}
+
+#set 
+numeros = {1,2,2,3,4,5,6}
+#numeros = {1,2,3,4,5}
+
+
+
+
