@@ -1,8 +1,12 @@
-ceu = "fim do mundo"
+#tabuada
+# 
+# 
+# 
+#
 
-if ceu == "fim do mundo"
-    print("não saio")
-elif ceu == "sol ao lado da terra":
-    print("não quero sair")
-else:
-    print("ai eu saio")
+
+tabuada = int(input("tabuada do numero: "))
+for count in range(100):
+ 
+    print("%d x %d = %d" % (tabuada, count+1, tabuada*(count+1)))
+
