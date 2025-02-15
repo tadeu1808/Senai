@@ -7,20 +7,20 @@
 #se o preço > 80 miil , 60 por cento de desconto
 # se re
 
-print("Qual o nome do carro?")
+print("Qual o nome do carro?\n")
 carro = str(input())
 
-print("Qual o valor do carro?")
+print("Qual o valor do carro?\n")
 valor = float(input())
 
 if valor >= 80000:
     carro80 = valor*0.4
-    print("valor do", carro, "com desconto de 60% é:", carro80)
+    print("valor do\n", carro, "\n com desconto de 60% é:\n", carro80)
     desconto60 = valor*0.6
-    print("o valor do desconto foi de:", desconto60)
+    print("o valor do desconto foi de:\n", desconto60)
 elif 79999 > valor >= 50000:
     carro30 = valor*0.7
-    print("valor do carro", carro, "com desconto de 30% é", carro30)
+    print("valor do \n", carro, "\n com desconto de 30% é \n", carro30)
     desconto30 = valor*0.3
     print("o desconto foi de:", desconto30)
 elif valor <= 30000:
